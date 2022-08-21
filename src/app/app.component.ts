@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyecto2';
+  completo:string = "";
+  public print(nombre:string, apellido:string){
+    this.completo ="Bienvenido "+ nombre+ " "+apellido;
+  }
 }
